@@ -1,0 +1,77 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Intercal",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#variables"
+		},
+		{
+			"include": "#variables-readonly"
+		},
+		{
+			"include": "#foo"
+		},
+		{
+			"include": "#functions"
+		},
+		{
+			"include": "#systemLibraryFunctions"
+		}
+	],
+	
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.intercal",
+				"match": "PLEASE|DO|SUB|NEXT|BY|FORGET|RESUME|STASH|RETRIEVE|IGNORE|REMEMBER|ABSTAIN|REINSTATE|GIVE UP"
+			}]
+		},
+		"variables": {
+			"patterns": [{
+				"name": "variable",
+				"match": "[.:,;][0-9]+"	
+			}]
+		},
+		"variables-readonly": {
+			"patterns": [{
+				"name": "variable.readonly",
+				"match": "#[0-9]+"	 	
+			}]
+		},
+		"functions": {
+			"patterns": [{
+				"name": "function",
+				"match": "[(]([0-9]|[0-9][0-9]|[0-9][0-9][0-9]|[2-9][0-9][0-9][0-9])[)]"
+			}]
+		},
+		"systemLibraryFunctions": {
+			"patterns": [{
+				"name": "function.defaultLibrary",
+				"match": "[(]([1][0-9][0-9][0-9])[)]"
+			}]
+		},
+		"foo": {
+			"patterns": [{
+				"name": "",
+				"match": ""
+			}]
+		},
+		"foo": {
+			"patterns": [{
+				"name": "",
+				"match": ""
+			}]
+		},
+		"foo": {
+			"patterns": [{
+				"name": "",
+				"match": ""
+			}]
+		}
+		
+	},
+	"scopeName": "source.intercal"
+}
