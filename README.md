@@ -17,7 +17,11 @@ You get what you pay for.
 
 Either nothing works or everything works.
 
-## Release Notes
+## Developer Resources
+
+[Intercal manual](https://3e8.org/pub/intercal.pdf)
+
+[Semantic Highlight Guide](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#theming)
 
 
 ### 1.0.0

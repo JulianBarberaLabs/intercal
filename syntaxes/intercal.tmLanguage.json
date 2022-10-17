@@ -3,6 +3,9 @@
 	"name": "Intercal",
 	"patterns": [
 		{
+			"include": "#comment"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
@@ -19,14 +22,29 @@
 		},
 		{
 			"include": "#systemLibraryFunctions"
+		},
+		{
+			"include": "#operators"
+		},
+		{
+			"include": "#decorator"
+		},
+		{
+			"include": "#do"
 		}
 	],
 	
 	"repository": {
+		"comment": {
+			"patterns": [{
+				"name": "comment",
+				"match": ".*NOTE.*"
+			}]
+		},
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.intercal",
-				"match": "PLEASE|DO|SUB|NEXT|BY|FORGET|RESUME|STASH|RETRIEVE|IGNORE|REMEMBER|ABSTAIN|REINSTATE|GIVE UP"
+				"match": "SUB|NEXT|BY|FORGET|RESUME|STASH|RETRIEVE|IGNORE|REMEMBER|ABSTAIN|FROM|REINSTATE|GIVE UP"
 			}]
 		},
 		"variables": {
@@ -53,22 +71,22 @@
 				"match": "[(]([1][0-9][0-9][0-9])[)]"
 			}]
 		},
-		"foo": {
+		"operators": {
 			"patterns": [{
-				"name": "",
-				"match": ""
+				"name": "keyword.operator",
+				"match": "<-|&|V|V-|$|¢|~"
 			}]
 		},
-		"foo": {
+		"decorator": {
 			"patterns": [{
-				"name": "",
-				"match": ""
+				"name": "entity.name.tag",
+				"match": "PLEASE"
 			}]
 		},
-		"foo": {
+		"do": {
 			"patterns": [{
-				"name": "",
-				"match": ""
+				"name": "entity.name.function",
+				"match": "DO"
 			}]
 		}
 		
