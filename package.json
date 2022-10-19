@@ -2,7 +2,8 @@
   "name": "intercal",
   "displayName": "Intercal",
   "description": "Syntax highlighting for Intercal",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "publisher": "JulianBarberaLabs",
   "engines": {
     "vscode": "^1.72.0"
   },
