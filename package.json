@@ -2,7 +2,7 @@
   "name": "intercal",
   "displayName": "Intercal",
   "description": "Syntax highlighting for Intercal",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "publisher": "JulianBarberaLabs",
   "repository": {
     "type": "git",
