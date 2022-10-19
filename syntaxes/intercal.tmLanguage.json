@@ -44,7 +44,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.intercal",
-				"match": "SUB|NEXT|BY|FORGET|RESUME|STASH|RETRIEVE|IGNORE|REMEMBER|ABSTAIN|FROM|REINSTATE|GIVE UP"
+				"match": "SUB|NEXT|BY|FORGET|RESUME|STASH|RETRIEVE|IGNORE|REMEMBER|ABSTAIN|FROM|REINSTATE|GIVE UP|WRITE IN|READ OUT"
 			}]
 		},
 		"variables": {
