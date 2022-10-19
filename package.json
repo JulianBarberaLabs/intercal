@@ -2,8 +2,12 @@
   "name": "intercal",
   "displayName": "Intercal",
   "description": "Syntax highlighting for Intercal",
-  "version": "0.2.0",
+  "version": "0.0.0",
   "publisher": "JulianBarberaLabs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JulianBarberaLabs/intercal"
+  },
   "engines": {
     "vscode": "^1.72.0"
   },
